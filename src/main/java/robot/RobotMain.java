@@ -16,6 +16,7 @@ public class RobotMain {
 
         robot.loadFromFile(Path.of("src", "main", "resources", "program.txt"));
 
+
 //        2. Kérje be egy utasítássor számát, majd írja a képernyőre, hogy:
 
         System.out.println("2. feladat:\n" +
@@ -39,7 +40,6 @@ public class RobotMain {
         System.out.println("2/b. Hány utasítással lehet visszajuttatni a kiindulási pontba?");
         System.out.println(program.printVisszajuttatas().concat(System.lineSeparator()));
 
-
 //        c. Annak végrehajtása során hányadik lépést követően került (légvonalban) legtávolabb a
 //        robot a kiindulási ponttól és mekkora volt ez a távolság! A távolságot a lépés sorszámát követően 3 tizedes pontossággal írja a képernyőre!
 
@@ -57,6 +57,7 @@ public class RobotMain {
 
         System.out.println("3. feladat Kisfogyasztású programok:".concat(System.lineSeparator()));
         robot.printKisfogyasztasuak();
+
 
 //        4. Gáborék továbbfejlesztették az utasításokat értelmező programot. Az új, jelenleg még
 //        tesztelés alatt álló változatban a több, változatlan irányban tett elmozdulást helyettesítjük
