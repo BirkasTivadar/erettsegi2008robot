@@ -34,7 +34,6 @@ public class Program {
         return String.format("A program %s", egyszerusitheto ? "egyszerűsíthető." : "nem egyszerűsíthető.");
     }
 
-
     public String printVisszajuttatas() {
         return String.format("%d lépést kell tenni az ED, %d lépést a KN tengely mentén.", Math.abs(y), Math.abs(x));
     }
@@ -95,7 +94,6 @@ public class Program {
         fogyasztas();
     }
 
-
     private void setXY(Character c) {
         if (c == 'E') y++;
         if (c == 'D') y--;
@@ -120,6 +118,4 @@ public class Program {
                 || directories.contains("KN")
                 || directories.contains("NK");
     }
-
-
 }

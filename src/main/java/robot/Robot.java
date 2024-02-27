@@ -52,5 +52,4 @@ public class Robot {
         kisfogyasztasuak.keySet()
                 .forEach(k -> System.out.printf("%d %d\n", k, kisfogyasztasuak.get(k)));
     }
-
 }

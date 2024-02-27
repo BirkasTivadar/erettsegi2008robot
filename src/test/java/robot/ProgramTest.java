@@ -6,13 +6,11 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class ProgramTest {
 
-
     @Test
     void fogyasztas() {
         Program program = new Program("EKK");
 
         assertEquals(7, program.getFogyasztas());
-
     }
 
     @Test
@@ -28,8 +26,6 @@ class ProgramTest {
 
         program = new Program("DDDKDDE");
         assertEquals("3DK2DE", program.egyszerusito());
-
-
     }
 
     @Test
