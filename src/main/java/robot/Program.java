@@ -108,7 +108,6 @@ public class Program {
                 .forEach(i -> {
                     fogyasztas++;
                     if (directories.charAt(i) == directories.charAt(i - 1)) fogyasztas += 2;
-
                 });
     }
 
